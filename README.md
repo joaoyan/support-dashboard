@@ -12,7 +12,10 @@
 ## 📋 Sobre o Projeto
 
 O **Support Dashboard** simula um painel real de acompanhamento de chamados utilizado por equipes de suporte técnico. Exibe indicadores em tempo real com armazenamento local no navegador, sem necessidade de backend.
+---
+## 🌐 Demonstração
 
+👉 [https://joaoyan.github.io/support-dashboard/](https://joaoyan.github.io/support-dashboard/)
 ---
 ## 🖼️ Preview
 
