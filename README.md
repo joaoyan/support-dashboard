@@ -14,7 +14,11 @@
 O **Support Dashboard** simula um painel real de acompanhamento de chamados utilizado por equipes de suporte técnico. Exibe indicadores em tempo real com armazenamento local no navegador, sem necessidade de backend.
 
 ---
+## 🖼️ Preview
 
+<img width="1365" height="527" alt="image" src="https://github.com/user-attachments/assets/b77d1990-2fd8-40d9-98bc-e4b5c9a6f9b3" />
+
+---
 ## ✨ Funcionalidades
 
 | Recurso | Descrição |
