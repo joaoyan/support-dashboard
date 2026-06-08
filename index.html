@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>📊 Support Dashboard</h1>
+<p>Painel de Indicadores de Suporte</p>
+</header>
+
+<section class="cards">
+
+<div class="card">
+<h3>Chamados Abertos</h3>
+<span id="abertos">0</span>
+</div>
+
+<div class="card">
+<h3>Resolvidos</h3>
+<span id="resolvidos">0</span>
+</div>
+
+<div class="card">
+<h3>Pendentes</h3>
+<span id="pendentes">0</span>
+</div>
+
+<div class="card">
+<h3>Taxa de Resolução</h3>
+<span id="taxa">0%</span>
+</div>
+
+</section>
+
+<section class="form-section">
+
+<h2>Adicionar Chamado</h2>
+
+<form id="ticketForm">
+
+<input
+type="text"
+id="titulo"
+placeholder="Título do chamado"
+required
+>
+
+<select id="status">
+<option>Aberto</option>
+<option>Resolvido</option>
+<option>Pendente</option>
+</select>
+
+<button type="submit">
+Adicionar
+</button>
+
+</form>
+
+</section>
+
+<section class="table-section">
+
+<h2>Chamados</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Título</th>
+<th>Status</th>
+<th>Ação</th>
+</tr>
+</thead>
+
+<tbody id="ticketList">
+
+</tbody>
+
+</table>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
